@@ -1,0 +1,19 @@
+$ git branch css-assignments
+$ git checkout css-assignments
+$ git add .
+$ git commit -m "inittial css commit"
+$ ls
+$ git add .
+$ git commit -m "change in readme txt file"
+$ git checkout master
+$ git add .
+$ git commit -m "change in readme txt file in master"
+$ git checkout css-assignments
+$ git add .
+$ git commit -m "minor css commit"
+$ git checkout master
+$ git add .
+$ git commit -m "commit manually resolve merge"
+$ git status
+$ git merge css-assignments
+$ git branch -D css-assignments

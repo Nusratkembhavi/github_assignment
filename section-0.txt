@@ -1,0 +1,28 @@
+$ mkdir project_dir
+$ cd project_dir
+$ git init
+$ touch index.html
+$ git status
+$ git add index.html
+$ git commit -m "commiting html file called index"
+$ touch info.txt
+$ git status
+$ touch .gitignore
+$ git status
+$ git add index.html
+$ git commit -m "commited index with <head>"
+$ git log
+$ git checkout -- .
+$ git add index.html
+$ git status
+$ git restore --staged index.html
+$ git status
+$ git config --global alias.my-add add
+$ git my-add index.html
+$ git commit -m "commited index.html acc to steps"
+$ git status
+$ git log
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+

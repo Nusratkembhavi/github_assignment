@@ -1,0 +1,18 @@
+$ mkdir Assignments
+$ cd Assignments
+$ touch README.txt
+$ git add .
+$ git commit -m "committed readme"
+$ git branch html-assignments
+$ git checkout html-assignments
+$ git add .
+$ git commit -m "modified html"
+$ git checkout master
+$ git add .
+$ git commit -m "modified txt"
+$ git checkout html-assignments
+$ git add .
+$ git commit -m "modified html 2nd time"
+$ git checkout master
+$ git merge html-assignments
+$ git branch -D html-assignments
